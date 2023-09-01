@@ -1,0 +1,17 @@
+.user-form {
+    margin-top: 50px;
+    margin-left: 70vh;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+}
+
+input {
+    padding: 0.5rem;
+    width: 50%;
+}
+  
+button {
+    width: 20%;
+}
