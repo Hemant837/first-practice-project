@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Wrapper from "../Helpers/Wrapper";
 import Card from "../UI/Card";
 import PopeupCard from "./PopupCard";
 import "./Users.css";
@@ -42,7 +43,7 @@ const AddUser = (props) => {
   };
 
   return (
-    <div>
+    <Wrapper>
       {popup && (
         <PopeupCard
           title={popup.title}
@@ -69,7 +70,7 @@ const AddUser = (props) => {
           <button type="submit">Add USer</button>
         </form>
       </Card>
-    </div>
+    </Wrapper>
   );
 };
 
